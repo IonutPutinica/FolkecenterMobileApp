@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">FolkecenterMobileApp</string>
+    <!--MAIN PAGE STRINGS-->
+    <string name="main_page_title">Nordic Folkecenter</string>
+    <string name="grid_news">Recent News</string>
+    <string name="grid_events">Upcoming Events</string>
+    <string name="grid_guided_tour">Guided Tour</string>
+    <string name="grid_map">Interactive Map</string>
+    <string name="grid_history">Our History</string>
+    <string name="grid_life">Life at Folkecenter</string>
+    <string name="grid_training">Training</string>
+    <string name="grid_quiz">Quiz Game</string>
+
 </resources>
