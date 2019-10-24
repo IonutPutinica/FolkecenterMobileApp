@@ -11,4 +11,9 @@
     <string name="grid_training">Training</string>
     <string name="grid_quiz">Quiz Game</string>
 
+
+    <!--RECENT NEWS PAGE STRINGS-->
+    <string name="news_read_more">Read More</string>
+    <string name="news_subtitle_date">Date</string>
+    <string name="news_title">Title</string>
 </resources>

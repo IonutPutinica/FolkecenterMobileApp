@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <ImageView
+        android:id="@+id/card_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#ececec"
+        />
+
+    <Button
+        android:background="@drawable/read_more_btn_style"
+        android:id="@+id/read_more_button_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/news_read_more"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <!--This image view has the purpose of giving the images a shadow effect on the bottom-->
+    <ImageView
+        android:id="@+id/shadow_effect_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/black_gradient"/>
+
+    <!--The title of the news section-->
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/card_news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/news_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/card_news_subtitle_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/news_subtitle_date"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toStartOf="@+id/card_background"
+        app:layout_constraintStart_toEndOf="@+id/card_news_title"
+        app:layout_constraintTop_toBottomOf="@+id/card_news_title" />
+
+</android.support.constraint.ConstraintLayout>
