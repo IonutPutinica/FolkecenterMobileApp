@@ -9,6 +9,7 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
 
     private CardView cardView;
+    private CardView cardViewEvents;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,11 +29,27 @@ public class MainActivity extends AppCompatActivity {
 
 
         );
+
+        cardViewEvents=findViewById(R.id.upcoming_events_cardview);
+        cardViewEvents.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                openUpcomingEventsActivity();
+            }
+        });
     }
 
     public void openMainNewsActivity()
     {
         Intent intent=new Intent(this, NewsActivity.class);
         startActivity(intent);
+    }
+
+    public void openUpcomingEventsActivity()
+    {
+        Intent eventsIntent=new Intent(this, UpcomingEventsActivity.class);
+        startActivity(eventsIntent);
     }
 }
