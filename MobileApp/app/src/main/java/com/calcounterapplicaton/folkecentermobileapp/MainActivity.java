@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     private CardView cardView;
     private CardView cardViewEvents;
+    private CardView cardViewTour;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +27,6 @@ public class MainActivity extends AppCompatActivity {
                                         }
                                     }
 
-
-
         );
 
         cardViewEvents=findViewById(R.id.upcoming_events_cardview);
@@ -37,6 +36,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v)
             {
                 openUpcomingEventsActivity();
+            }
+        });
+
+        cardViewTour=findViewById(R.id.guided_tour_card_view);
+        cardViewTour.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                openAudioTestAcitivty();
             }
         });
     }
@@ -52,4 +61,12 @@ public class MainActivity extends AppCompatActivity {
         Intent eventsIntent=new Intent(this, UpcomingEventsActivity.class);
         startActivity(eventsIntent);
     }
+
+    public void openAudioTestAcitivty()
+    {
+        Intent intent=new Intent(this, AudioTestActivity.class);
+        startActivity(intent);
+    }
+
+
 }
