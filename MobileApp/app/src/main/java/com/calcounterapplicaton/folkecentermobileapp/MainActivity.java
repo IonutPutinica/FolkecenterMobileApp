@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                openAudioTestAcitivty();
+                openGuidedTourAcitivty();
             }
         });
     }
@@ -62,9 +62,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(eventsIntent);
     }
 
-    public void openAudioTestAcitivty()
+    public void openGuidedTourAcitivty()
     {
-        Intent intent=new Intent(this, AudioTestActivity.class);
+        Intent intent=new Intent(this, GuidedTourActivity.class);
         startActivity(intent);
     }
 

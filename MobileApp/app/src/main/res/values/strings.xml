@@ -16,4 +16,18 @@
     <string name="news_read_more">Read More</string>
     <string name="news_subtitle_date">Date</string>
     <string name="news_title">Title</string>
+
+    <!--GUIDED TOUR PAGE STRINGS-->
+    <string name="guided_tour_title">Guided Tour</string>
+    <string name="grid_test_field">Test Field</string>
+    <string name="grid_biodome">Biodome</string>
+    <string name="grid_cafe_solaire">Cafe Solaire</string>
+    <string name="grid_workshop">Workshop</string>
+    <string name="grid_plus_house">Plus House</string>
+    <string name="grid_passive_house">Passive House</string>
+    <string name="grid_skibstedfjord">SkibstedFjord</string>
+    <string name="grid_water_treatment">Water Treatment</string>
+    <string name="grid_oil_lab">Plant Oil Lab</string>
+    <string name="grid_wind_museum">Wind Museum</string>
+
 </resources>
