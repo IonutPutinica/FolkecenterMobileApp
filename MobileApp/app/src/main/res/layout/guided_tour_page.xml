@@ -377,7 +377,7 @@
         <!--Column 1-->
 
         <android.support.v7.widget.CardView
-            android:id="@+id/oil_lab_card_view"
+            android:id="@+id/plant_oil_lab_card_view"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
