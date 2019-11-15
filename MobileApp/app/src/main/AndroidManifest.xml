@@ -10,6 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".TestFieldTourActivity"/>
+        <activity android:name=".BiodomeTourActivity"/>
+        <activity android:name=".CafeSolaireTourActivity"/>
+        <activity android:name=".PassiveHouseTourActivity"/>
+        <activity android:name=".PlusHouseTourActivity"/>
+        <activity android:name=".SkibstedFjordTourActivity"/>
+        <activity android:name=".WaterTreatmentTourActivity"/>
+        <activity android:name=".WindMuseumTourActivity"/>
+        <activity android:name=".WorkshopTourActivity"/>
         <activity android:name=".UpcomingEventsActivity"/>
         <activity android:name=".GuidedTourActivity"/>
         <activity android:name=".NewsActivity"/>
