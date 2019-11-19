@@ -18,6 +18,7 @@
         <activity android:name=".SkibstedFjordTourActivity"/>
         <activity android:name=".WaterTreatmentTourActivity"/>
         <activity android:name=".WindMuseumTourActivity"/>
+        <activity android:name=".PlantOilLabTourActivity"/>
         <activity android:name=".WorkshopTourActivity"/>
         <activity android:name=".UpcomingEventsActivity"/>
         <activity android:name=".GuidedTourActivity"/>

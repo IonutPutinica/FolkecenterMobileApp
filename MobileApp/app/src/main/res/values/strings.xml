@@ -30,4 +30,10 @@
     <string name="grid_oil_lab">Plant Oil Lab</string>
     <string name="grid_wind_museum">Wind Museum</string>
 
+    <!--TEST FIELD PAGE STRINGS-->
+    <string name="test_field_title">Test Field</string>
+    <string name="test_field_audio_tour">Test Field Audio Tour</string>
+    <string name="test_field_text_tour_title">Audio Tour Transcription</string>
+    <string name="test_field_text_tour">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
 </resources>
