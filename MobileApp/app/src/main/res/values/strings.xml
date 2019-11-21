@@ -36,4 +36,39 @@
     <string name="test_field_text_tour_title">Audio Tour Transcription</string>
     <string name="test_field_text_tour">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
 
+    <!--BIODOME PAGE STRINGS-->
+    <string name="biodome_title">Biodome</string>
+    <string name="biodome_audio_tour">Biodome Audio Tour</string>
+
+    <!--CAFE SOLAIRE PAGE STRINGS-->
+    <string name="cafe_solaire_title">Cafe Solaire</string>
+    <string name="cafe_solaire_audio_tour">Cafe Solaire Audio Tour</string>
+
+    <!--WORKSHOP PAGE STRINGS-->
+    <string name="workshop_title">Workshop</string>
+    <string name="workshop_audio_tour">Workshop Audio Tour</string>
+
+    <!--PLUS HOUSE PAGE STRINGS-->
+    <string name="plus_house_title">Plus House</string>
+    <string name="plus_house_audio_tour">Plus House Audio Tour</string>
+
+    <!--PASSIVE HOUSE PAGE STRINGS-->
+    <string name="passive_house_title">Passive House</string>
+    <string name="passive_house_audio_tour">Passive House Audio Tour</string>
+
+    <!--SKIBSTEDFJORD PAGE STRINGS-->
+    <string name="skibsted_fjord_title">Skibstedfjord</string>
+    <string name="skibsted_fjord_audio_tour">Skibstedfjord Audio Tour</string>
+
+    <!--WATER TREATMENT PAGE STRINGS-->
+    <string name="water_treatment_title">Water Treatment</string>
+    <string name="water_treatment_audio_tour">Water Treatment Audio Tour</string>
+
+    <!--PLANT OIL LAB PAGE STRINGS-->
+    <string name="plant_oil_lab_title">Plant Oil Lab</string>
+    <string name="plant_oil_lab_audio_tour">Plant Oil Lab Audio Tour</string>
+
+    <!--PLANT OIL LAB PAGE STRINGS-->
+    <string name="wind_museum_title">Wind Museum</string>
+    <string name="wind_museum_audio_tour">Wind Museum Audio Tour</string>
 </resources>
