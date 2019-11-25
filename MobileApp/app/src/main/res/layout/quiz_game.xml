@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:weightSum="8">
+
+    <RelativeLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <TextView
+            android:id="@+id/quiz_game_title"
+            android:text="@string/quiz_game_title"
+            android:textSize="34sp"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <ImageView
+            android:id="@+id/quiz_game_image"
+            android:src="@drawable/folkecenter_quiz_game_image"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+    <TextView
+        android:id="@+id/quiz_game_instructions"
+        android:text="@string/quiz_game_instructions"
+        android:textSize="22sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+    <Button
+        android:id="@+id/quiz_game_button"
+        android:text="@string/quiz_game_button"
+        android:textSize="30sp"
+        android:onClick="openGameInstallation"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -71,4 +71,9 @@
     <!--PLANT OIL LAB PAGE STRINGS-->
     <string name="wind_museum_title">Wind Museum</string>
     <string name="wind_museum_audio_tour">Wind Museum Audio Tour</string>
+
+    <!--QUIZ GAME PAGE STRINGS-->
+    <string name="quiz_game_title">Folkecenter Quiz Game</string>
+    <string name="quiz_game_instructions">Currently the Folkecenter Quiz Game is not available on mobile devices and can only be played on desktop platforms. Follow the link below for installation.</string>
+    <string name="quiz_game_button">Open Game Link</string>
 </resources>

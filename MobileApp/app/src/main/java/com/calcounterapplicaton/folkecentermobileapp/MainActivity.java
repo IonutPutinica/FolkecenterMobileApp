@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private CardView cardView;
     private CardView cardViewEvents;
     private CardView cardViewTour;
+    private CardView cardViewGame;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +49,17 @@ public class MainActivity extends AppCompatActivity {
                 openGuidedTourAcitivty();
             }
         });
+
+        cardViewGame=findViewById(R.id.quiz_game_card_view);
+        cardViewGame.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                openQuizGameAcitivty();
+            }
+        });
+
     }
 
     public void openMainNewsActivity()
@@ -65,6 +77,12 @@ public class MainActivity extends AppCompatActivity {
     public void openGuidedTourAcitivty()
     {
         Intent intent=new Intent(this, GuidedTourActivity.class);
+        startActivity(intent);
+    }
+
+    public void openQuizGameAcitivty()
+    {
+        Intent intent=new Intent(this, QuizGameActivity.class);
         startActivity(intent);
     }
 
