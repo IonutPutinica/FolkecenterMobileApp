@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
     private CardView cardViewEvents;
     private CardView cardViewTour;
     private CardView cardViewGame;
+    private CardView cardViewTraining;
+    private CardView cardViewTips;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +62,26 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        cardViewTraining=findViewById(R.id.training_card_view);
+        cardViewTraining.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                openTrainingActivity();
+            }
+        });
+
+        cardViewTips=findViewById(R.id.tips_card_view);
+        cardViewTips.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                openTipsActivity();
+            }
+        });
+
     }
 
     public void openMainNewsActivity()
@@ -86,5 +108,16 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openTrainingActivity()
+    {
+        Intent intent=new Intent(this, TrainingActivity.class);
+        startActivity(intent);
+    }
+
+    public void openTipsActivity()
+    {
+        Intent intent=new Intent(this, TipsActivity.class);
+        startActivity(intent);
+    }
 
 }

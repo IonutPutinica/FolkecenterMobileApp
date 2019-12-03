@@ -7,7 +7,7 @@
     <string name="grid_guided_tour">Guided Tour</string>
     <string name="grid_map">Interactive Map</string>
     <string name="grid_history">Our History</string>
-    <string name="grid_life">Life at Folkecenter</string>
+    <string name="grid_tips">Sustainable Tips</string>
     <string name="grid_training">Training</string>
     <string name="grid_quiz">Quiz Game</string>
 
@@ -76,4 +76,14 @@
     <string name="quiz_game_title">Folkecenter Quiz Game</string>
     <string name="quiz_game_instructions">Currently the Folkecenter Quiz Game is not available on mobile devices and can only be played on desktop platforms. Follow the link below for installation.</string>
     <string name="quiz_game_button">Open Game Link</string>
+
+    <!--TRAINING PAGE STRINGS-->
+    <string name="training_title">Training Program</string>
+    <string name="training_text">The general aim of the trainee programme is to provide knowledge about a variety of aspects within renewable energies, both from the technical and the socio-economic profile. The programme is developed around the trainee, meaning that there is not a standard path, but it is a more individual process which is carried in cooperation with the trainee, focusing on his needs and requests.</string>
+    <string name="training_button">More Details</string>
+
+    <!--TIPS PAGE STRINGS-->
+    <string name="tips_title">Sustainable Tips</string>
+    <string name="main_tips_text">Saving the planet sounds huge doesn’t it? And in essence, it is. But there are many simple ways you can do your bit to help. Check out this list of easy ways to go green and do your bit to help! These are steps that anyone can and should take to help reduce the effect of years of abuse.</string>
+    <string name="open_tips_button">Open Tips</string>
 </resources>
