@@ -86,4 +86,6 @@
     <string name="tips_title">Sustainable Tips</string>
     <string name="main_tips_text">Saving the planet sounds huge doesn’t it? And in essence, it is. But there are many simple ways you can do your bit to help. Check out this list of easy ways to go green and do your bit to help! These are steps that anyone can and should take to help reduce the effect of years of abuse.</string>
     <string name="open_tips_button">Open Tips</string>
+    <string name="tip_no1_title">Tip #1</string>
+    <string name="tip_no1_text">Energy efficient lightbulbs are a simple way to reduce the amount of power you use. Not only will this help the planet, it will also save your bank balance too. By replacing just one lightbulb, the effect can be tremendous. If every house in Europe did this, it would reduce pollution by the same amount as removing two million cars from the road!</string>
 </resources>

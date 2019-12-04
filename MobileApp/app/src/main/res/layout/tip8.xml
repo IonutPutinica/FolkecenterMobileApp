@@ -79,12 +79,12 @@
 
         <ImageView
             android:layout_marginLeft="45dp"
-        android:id="@+id/next_tip_arrow"
-        android:layout_width="120dp"
-        android:layout_height="60dp"
+            android:id="@+id/next_tip_arrow"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
             android:padding="5dp"
             android:layout_marginRight="10dp"
-        android:src="@drawable/next_tip_arrow"
+            android:src="@drawable/next_tip_arrow"
             android:layout_alignParentRight="true"/>
 
     </RelativeLayout>
