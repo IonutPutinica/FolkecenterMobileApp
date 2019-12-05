@@ -14,8 +14,8 @@
 
 
         <TextView
-            android:id="@+id/tip_no1_title"
-            android:text="@string/tip_no1_title"
+            android:id="@+id/tip_no4_title"
+            android:text="@string/tip_no4_title"
             android:textSize="34sp"
             android:textColor="@android:color/white"
             android:layout_centerInParent="true"
@@ -32,8 +32,8 @@
 
 
         <ImageView
-            android:id="@+id/tip1_image"
-            android:src="@drawable/tip1_image"
+            android:id="@+id/tip4_image"
+            android:src="@drawable/tip4_image"
             android:layout_centerInParent="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -48,9 +48,9 @@
 
 
         <TextView
-            android:id="@+id/tip1_text"
-            android:text="@string/tip_no1_text"
-            android:textSize="23sp"
+            android:id="@+id/tip4_text"
+            android:text="@string/tip_no4_text"
+            android:textSize="28sp"
             android:layout_centerInParent="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -88,4 +88,22 @@
     <string name="open_tips_button">Open Tips</string>
     <string name="tip_no1_title">Tip #1</string>
     <string name="tip_no1_text">Energy efficient lightbulbs are a simple way to reduce the amount of power you use. Not only will this help the planet, it will also save your bank balance too. By replacing just one lightbulb, the effect can be tremendous. If every house in Europe did this, it would reduce pollution by the same amount as removing two million cars from the road!</string>
+    <string name="tip_no2_title">Tip #2</string>
+    <string name="tip_no3_title">Tip #3</string>
+    <string name="tip_no4_title">Tip #4</string>
+    <string name="tip_no5_title">Tip #5</string>
+    <string name="tip_no6_title">Tip #6</string>
+    <string name="tip_no7_title">Tip #7</string>
+    <string name="tip_no8_title">Tip #8</string>
+    <string name="tip_no9_title">Tip #9</string>
+    <string name="tip_no10_title">Tip #10</string>
+    <string name="tip_no2_text">Unless it’s absolutely essential, for example if you’re making bread, you don’t need to pre-heat the oven. You can just set it away when you are ready to start cooking. Bonus tip: When checking the food, look through the door rather than opening it until the final check.</string>
+    <string name="tip_no3_text">You don’t have to give up meat for life, but try to commit to one meat free day a week. It takes 18,000 liters of water to produce a single kilogram of beef. And each hamburger that comes from animals on ex-forestry ground is responsible for the destruction of fifty-five square feet of forest.</string>
+    <string name="tip_no4_text">If your car has a cruise control, then do use it! You paid for it along with the car anyway. This will help to improve your mileage at least by 15%, which will in the process save the environment, gasoline and your wallet.</string>
+    <string name="tip_no5_text">A lot of things can be sourced second hand. Things that have a short usage period due to growth, for example, a child’s bicycle, can be picked up second hand in fantastic condition and also at a fraction of the price. This saves you money and helps to reduce packaging materials.</string>
+    <string name="tip_no6_text">Make sure to recycle your old newspapers - 69% (or 44 million newspapers) of the newspapers printed in the USA are thrown away every day. Even if you recycle only once per week, half a million trees could be saved. Or even better, why not avoid newspapers altogether and read the online versions!</string>
+    <string name="tip_no7_text">Switching your bath for a shower can make a huge difference. Baths use approximately double the amount of water a shower uses. This not only saves water, but it saves you money on heating the excess water too.</string>
+    <string name="tip_no8_text">Adjusting the temperature in your home by just one degree can save you 10% on your energy use over the year. This is another great saving you and another great help for the planet. Where possible, set a timer so your heating/cooling doesn’t need to be on when you aren’t home.</string>
+    <string name="tip_no9_text">Plastic carrier bags are not biodegradable, nor are they recyclable. They sit in landfills where they often end up polluting the ocean and infiltrating food sources. Use a stronger, reusable bag.</string>
+    <string name="tip_no10_text">Bottled water is handy when you’re on the go, but why not buy one bottle and then refill it from the tap or your work’s water cooler. Around 90% of water bottles end up decomposing in landfills rather than being recycled.</string>
 </resources>
