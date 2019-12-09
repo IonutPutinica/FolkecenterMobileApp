@@ -70,7 +70,7 @@
             android:id="@+id/open_tips_button"
             android:text="@string/open_tips_button"
             android:textSize="30sp"
-            android:onClick="openTip1"
+            android:onClick="openTip2"
             android:layout_centerInParent="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

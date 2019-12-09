@@ -72,6 +72,7 @@
             android:layout_width="120dp"
             android:padding="5dp"
             android:layout_height="60dp"
+            android:onClick="BackToTip7"
             android:src="@drawable/previous_tip_arrow"
             android:layout_toLeftOf="@id/next_tip_arrow"
             android:layout_marginRight="110dp"/>
@@ -82,6 +83,7 @@
             android:id="@+id/next_tip_arrow"
             android:layout_width="120dp"
             android:layout_height="60dp"
+            android:onClick="OpenTip9"
             android:padding="5dp"
             android:layout_marginRight="10dp"
             android:src="@drawable/next_tip_arrow"
