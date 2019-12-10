@@ -106,4 +106,7 @@
     <string name="tip_no8_text">Adjusting the temperature in your home by just one degree can save you 10% on your energy use over the year. This is another great saving you and another great help for the planet. Where possible, set a timer so your heating/cooling doesn’t need to be on when you aren’t home.</string>
     <string name="tip_no9_text">Plastic carrier bags are not biodegradable, nor are they recyclable. They sit in landfills where they often end up polluting the ocean and infiltrating food sources. Use a stronger, reusable bag.</string>
     <string name="tip_no10_text">Bottled water is handy when you’re on the go, but why not buy one bottle and then refill it from the tap or your work’s water cooler. Around 90% of water bottles end up decomposing in landfills rather than being recycled.</string>
+
+    <!--LANGUAGE SELECT PAGE STRINGS-->
+    <string name="language_select_title">Select language</string>
 </resources>
