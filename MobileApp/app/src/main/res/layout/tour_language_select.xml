@@ -34,6 +34,7 @@
         <ImageView
             android:id="@+id/danish_language"
             android:src="@drawable/denmark"
+            android:onClick="openDanishSection"
             android:layout_centerInParent="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,6 +51,7 @@
         <ImageView
             android:id="@+id/german_language"
             android:src="@drawable/germany"
+            android:onClick="openGermanSection"
             android:layout_centerInParent="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -66,6 +68,7 @@
         <ImageView
             android:id="@+id/english_language"
             android:src="@drawable/english"
+            android:onClick="openEnglishSection"
             android:layout_centerInParent="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

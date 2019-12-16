@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void openGuidedTourAcitivty()
     {
-        Intent intent=new Intent(this, GuidedTourActivity.class);
+        Intent intent=new Intent(this, TourLanguageSelectActivity.class);
         startActivity(intent);
     }
 
