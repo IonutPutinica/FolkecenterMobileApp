@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private CardView cardViewTraining;
     private CardView cardViewTips;
     private CardView cardViewHistory;
+    private CardView cardViewMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,6 +94,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        cardViewMap=findViewById(R.id.interactive_map_card_view);
+        cardViewMap.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                openInteractiveMapActivity();
+            }
+        });
+
     }
 
     public void openMainNewsActivity()
@@ -134,6 +145,12 @@ public class MainActivity extends AppCompatActivity {
     public void openHistoryActivity()
     {
         Intent intent=new Intent(this, HistoryFolkecenterActivity.class);
+        startActivity(intent);
+    }
+
+    public void openInteractiveMapActivity()
+    {
+        Intent intent=new Intent(this, InteractiveMapActivity.class);
         startActivity(intent);
     }
 
