@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private CardView cardViewGame;
     private CardView cardViewTraining;
     private CardView cardViewTips;
+    private CardView cardViewHistory;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,6 +83,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        cardViewHistory=findViewById(R.id.history_folkecenter_cardview);
+        cardViewHistory.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                openHistoryActivity();
+            }
+        });
+
     }
 
     public void openMainNewsActivity()
@@ -117,6 +128,12 @@ public class MainActivity extends AppCompatActivity {
     public void openTipsActivity()
     {
         Intent intent=new Intent(this, TipsActivity.class);
+        startActivity(intent);
+    }
+
+    public void openHistoryActivity()
+    {
+        Intent intent=new Intent(this, HistoryFolkecenterActivity.class);
         startActivity(intent);
     }
 
