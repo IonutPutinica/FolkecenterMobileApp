@@ -31,7 +31,7 @@ public class TrainingActivityWebView extends Activity {
         webSettings.setJavaScriptEnabled(true);
 
         //Remote Resource
-        trainingWebView.loadUrl("http://www.folkecenter.eu/pages/Training.html");
+        trainingWebView.loadUrl("http://www.folkecenter.eu/pages/Renewable-energy-training-information.html");
         trainingWebView.setWebViewClient(new WebViewClient());
     }
 
