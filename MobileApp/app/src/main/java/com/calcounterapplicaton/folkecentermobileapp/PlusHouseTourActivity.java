@@ -21,7 +21,7 @@ public class PlusHouseTourActivity extends AppCompatActivity {
     {
         if(plus_house_player==null)
         {
-            plus_house_player=MediaPlayer.create(this, R.raw.song);
+            plus_house_player=MediaPlayer.create(this, R.raw.plushouse);
             plus_house_player.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                 @Override
                 public void onCompletion(MediaPlayer mp) {

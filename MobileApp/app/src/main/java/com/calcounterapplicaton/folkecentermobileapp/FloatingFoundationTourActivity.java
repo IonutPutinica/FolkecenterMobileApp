@@ -21,7 +21,7 @@ public class FloatingFoundationTourActivity extends AppCompatActivity {
     {
         if(floating_foundation_player==null)
         {
-            floating_foundation_player=MediaPlayer.create(this, R.raw.song);
+            floating_foundation_player=MediaPlayer.create(this, R.raw.floatingfoundation);
             floating_foundation_player.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                 @Override
                 public void onCompletion(MediaPlayer mp) {

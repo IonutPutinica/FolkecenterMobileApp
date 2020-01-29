@@ -21,7 +21,7 @@ public class PlantOilLabTourActivity extends AppCompatActivity {
     {
         if(plant_oil_lab_player==null)
         {
-            plant_oil_lab_player=MediaPlayer.create(this, R.raw.song);
+            plant_oil_lab_player=MediaPlayer.create(this, R.raw.oillab);
             plant_oil_lab_player.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                 @Override
                 public void onCompletion(MediaPlayer mp) {
