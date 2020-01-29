@@ -35,7 +35,9 @@
     <string name="test_field_title">Test Field</string>
     <string name="test_field_audio_tour">Test Field Audio Tour</string>
     <string name="test_field_text_tour_title">Audio Tour Transcription</string>
-    <string name="test_field_text_tour">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="test_field_text_tour">The location of Folkecenter (strong and frequent winds) makes it the ideal location for testing small wind turbines. Folkecenter’s testfield is includes different models and components on test, from different manufacturers around the world. The test field has:Standard foundations for wind turbines up to 75 kW.Location for 10 small wind turbines up to 10 kW.Internal cable connections for electricity and measurements.Measuring masts.3 wells (6 meters deep) for testing of wind pumps.Containers for measuring equipment and supplies.Tests of wind turbines from 60 watts up to 90 kW have been conducted for Danish and foreign companies.Since 1984 the 75 kW blue wind turbine has supplied Folkecenter with electricity. The turbine, designed by Folkecenter, was meant as starting building block for companies willing to enter the wind market. Together with other models of the DAN series, the turbine has a documentation which is accessible for those searching for a reliable model to enter the wind business.Folkecenter has now a new test field, located in Hundborg. More information can be found on the link below:
+https://smallwind.dk/
+</string>
 
     <!--BIODOME PAGE STRINGS-->
     <string name="biodome_title">Biodome</string>
@@ -64,14 +66,41 @@ The Biodome demonstrates how to integrate water circuits, recycling nutrient sal
     <!--PASSIVE HOUSE PAGE STRINGS-->
     <string name="passive_house_title">Passive House</string>
     <string name="passive_house_audio_tour">Passive House Audio Tour</string>
+    <string name="passive_house_text_tour">The term Passive House refers to the fact that the house does not, in principle, need to be supplied with energy for neither heating nor cooling. This means that there is virtually no heat loss, and that the building is optimized to utilize the heat supply that occurs through solar radiation and human activity. The Definition of a passive house is:
+(1)The energy consumption for space heating is at a maximum of 15 kWh/m2.
+(2)The total energy consumption is at a maximum of 120 kWh/m2.
+(3)Air tightness: Maximum 0.6/h air change.
+Note that the m2 is considered interior and not exterior, which is normal in Denmark.Architectural heat loss can be minimized by minimizing the buildings surface, as it is known from traditional Danish construction practice. To utilize the passive solar heat, the houses windows and living rooms are oriented to the south. Good daylight conditions are crucial for both the comfort of the house and for lower energy consumption.Constructively, heat loss is avoided by means of a thick and close insulation without thermal bridges, as well as the use of windows and doors with very low U-value, and more.Note how windows and doors are mounted in the insulating layer and only partially in the lightweight concrete wall. The lightweight concrete walls are chosen because of their thermal accumulation properties.Finally, the mechanical ventilation and heat recovery is a special feature of the Passive House.This ensures a continuous airflow through the house, where the fresh cool outdoor air is heated with the heat from the "used" indoor air.Price:In addition to the energy requirements, the house tests the possibility of reducing building expenses, normally quite high for passive houses. The present building has a m2 price of a maximum of 10,000 DKK, including VAT for materials and crafts expenses. The smaller the building area, the larger the relative surface of the climate screen (roof and outer walls) and the more difficult it is to keep the square meter price down.The Passive House here at the Folkecenter is the smallest passive house in Denmark so far (100 m2). The low price is achieved by building a very simple house.The efforts to minimize the building surface mean not only that heat loss is reduced but also a reduction of material costs.Labor-intensive details are avoided. The unilateral slope of the roof is completely without penetration to the chimney, ventilation, windows and more. The house has four perpendicular corners and no bay windows, niches or extensions. The number of windows is limited to a few rooms.Other economic solutions include prefabricated light concrete walls, the terrain deck insulation material, roof and outer wall steel sheet cladding and, in particular, the absence of central heating systems.Moreover, the costs of electricity and ventilation are almost the same as in new buildings.Environment:To the extent that it has been possible within the given energy and economic framework, it is sought to use environmentally friendly materials, as well as local suppliers and craftsmen.Thus, paper wool is the main component of ceiling and wall insulation. Waterproofed wood has only been used where it has been necessary, which means hardly any.The choice of woods like larch and pine tree in a good quality is crucial to this being possible.There is access to the Passive House by appointment. Ask at the reception.
+</string>
 
     <!--SKIBSTEDFJORD PAGE STRINGS-->
     <string name="skibsted_fjord_title">Skibstedfjord</string>
     <string name="skibsted_fjord_audio_tour">Skibstedfjord Audio Tour</string>
+    <string name="skibsted_fjord_text_tour">Built in 1996 and with an area of 750m2, SkibstedFjord is Denmarks first underground test house. In Thy, it is called Jordhuset (the Turf House). It is built into a hill with a facade towards the beautiful Skibsted Fjord. The special architecture is used to make the house invisible in the landscape, following the principles of the so called “Invisible Architecture”.
+The house demonstrates that you can lay a large building in a natural area without dominating it.
+The house is enclosed by soil on three of its sides, and is covered by 1.5 meters of earth.
+All the soil-covered surfaces are sealed with bentonite, a volcanic soil species from Wyoming, USA. Bentonite swells 100 times when it meets water, and by that way seals the house.
+Since the construction of the house, no moisture has been detected in any of the outer walls, even though the house is exposed to significant water pressure.
+The house contains an octagonal meeting room that seats 200 people, a kitchen, study rooms and library. The supporting building parts are made of concrete, which is molded on site.
+The energy consumption is very low:
+3 types of passive solar heat systems have been used.
+Finnish masonry oven with stove (Denmarks largest).
+2 kinds of window-integrated photovoltaics (Denmarks first).
+Photovoltaics of the thin film type in the facade band.
+Heat pump and underfloor heating.
+In 1996, the first 680 m2 costed 4.5 million DKK, with a square meter price of 6600 DKK.
+The entrance portal was added in 2001 and all the craftsmen were all local.
+Preben Maegaard developed the concept of the house, inspired by the octagonal assembly house in Galtrup on Mors.
+Architect: Møller Nielsen Tegnestue (Design Office), Struer, v/arkitekt MAA Per Clausen.
+Engineer: Viggo Øhlenschlæger, Sdr. Ydby.
+Financing: Financial legislation grant from 1992.
+Client: Property Fund Landsbyen for Grøn Forskning (Village for Green Research).
+</string>
 
     <!--WATER TREATMENT PAGE STRINGS-->
     <string name="water_treatment_title">Water Treatment</string>
     <string name="water_treatment_audio_tour">Water Treatment Audio Tour</string>
+    <string name="water_treatment_text_tour">The Folkecenters latest plant for organic wastewater treatment, which is called Water-For-Life, is intended for a single household.It is divided into 2 experimental plants, which are realistic alternatives to conventional wastewater removal. It is based on ecological principles with the sun as an energy source.Air is blown in to oxygenate the wastewater. The plant then utilizes the nutrients in the waste water for the production of a new biomass, after which the sewage can be recycled for outdoor watering, lavatory flushing and the like.The Water-For-Life plant is easy to manufacture: only widely available and already industrial mass produced materials such as pipes, hoses, containers and pumps are used. The plastic containers can also be alternatively replaced with concrete.The plant works as long as the temperature is above 12 degrees.</string>
 
     <!--PLANT OIL LAB PAGE STRINGS-->
     <string name="plant_oil_lab_title">Plant Oil Lab</string>
@@ -89,6 +118,7 @@ The oil press can produce 2-4 liters of rapeseed oil per hour, depending on the 
     <!--WIND MUSEUM LAB PAGE STRINGS-->
     <string name="wind_museum_title">Wind Museum</string>
     <string name="wind_museum_audio_tour">Wind Museum Audio Tour</string>
+    <string name="wind_musem_text_tour">The wind museum is a witness of wind turbines development and it includes a collection of wind turbines and related components from 1975.The many different models illustrate the technological development that has taken place over the years, which allowed Denmark to become a leading country in the field.The exhibition contains unique examples from the Danish wind turbine history, some of which are prototypes, meaning that only this copy is available.Among the exhibited items are the largest wooden wings that are made in Denmark.They were used on the Nibe A wind turbines  and on "Den Gule Enke (The Yellow Widow)" developed by the Folkecenter. They are 13 m long and they were able to produce 150 kW (equivalent to 150 washing machines). Blades are now much longer, with lengths reaching 107 m and power production capacities up to 12 MW (12.000 washing machines). They are built in fiberglass and they are much more flexible than the ones in wood. The museum is the largest wind collection in Denmark. The building was built in 2001 and it is a standard hall that was modified by Kenneth Olsen, MAA, for the present purpose. The load bearing structure is lattice of wood. The external timbering is of pine tree from Estonia, painted with "Falu Rödfärg” (Falu red color), Swedish copper oxide paint.It costed 600.000 DKK to construct the hall, which is 15 x 30 meters.</string>
 
 
     <!--FLOATING FOUNDATION PAGE STRINGS-->
