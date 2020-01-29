@@ -11,7 +11,7 @@ public class GuidedTourActivity extends AppCompatActivity {
 
     private CardView cardViewTestField;
     private CardView cardViewBiodome;
-    private CardView cardViewCafeSolaire;
+    private CardView cardViewFloatingFoundation;
     private CardView cardViewWorkshop;
     private CardView cardViewPlusHouse;
     private CardView cardViewPassiveHouse;
@@ -26,10 +26,10 @@ public class GuidedTourActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-
-        //opening test_field activity
+        
         setContentView(R.layout.guided_tour_page);
-
+        
+        //opening test_field activity
         cardViewTestField=findViewById(R.id.test_field_cardview);
         cardViewTestField.setOnClickListener(new View.OnClickListener()
                                     {
@@ -55,14 +55,14 @@ public class GuidedTourActivity extends AppCompatActivity {
 
         );
 
-        //opening the cafe solaire activity
-        cardViewCafeSolaire=findViewById(R.id.cafe_solaire_card_view);
-        cardViewCafeSolaire.setOnClickListener(new View.OnClickListener()
+        //opening the floating foundation activity
+        cardViewFloatingFoundation=findViewById(R.id.floating_foundation_card_view);
+        cardViewFloatingFoundation.setOnClickListener(new View.OnClickListener()
                                            {
                                                @Override
                                                public void onClick(View v)
                                                {
-                                                   openCafeSolaireActivity();
+                                                   openFloatingFoundationActivity();
                                                }
                                            }
 
@@ -176,10 +176,10 @@ public class GuidedTourActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    //openCafeSolaireActivity() method that created the intent that opens the cafe_solaire layout
-    public void openCafeSolaireActivity()
+    //openFloatingFoundationActivity() method that created the intent that opens the cafe_solaire layout
+    public void openFloatingFoundationActivity()
     {
-        Intent intent=new Intent(this, CafeSolaireTourActivity.class);
+        Intent intent=new Intent(this, FloatingFoundationTourActivity.class);
         startActivity(intent);
     }
 

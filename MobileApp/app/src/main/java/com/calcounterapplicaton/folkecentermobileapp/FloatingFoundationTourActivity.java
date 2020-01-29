@@ -5,38 +5,38 @@ import android.media.MediaPlayer;
 import android.view.View;
 import android.support.v7.app.AppCompatActivity;
 
-public class BiodomeTourActivity extends AppCompatActivity {
+public class FloatingFoundationTourActivity extends AppCompatActivity {
 
-    MediaPlayer biodome_player;
+    MediaPlayer floating_foundation_player;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tour_biodome);
+        setContentView(R.layout.tour_floating_foundation);
     }
 
     //the media player will be created in the play method, being a resource hungry feature, so that it is not created whenever the class is called
     public void play(View v)
     {
-        if(biodome_player==null)
+        if(floating_foundation_player==null)
         {
-            biodome_player=MediaPlayer.create(this, R.raw.biodome);
-            biodome_player.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            floating_foundation_player=MediaPlayer.create(this, R.raw.song);
+            floating_foundation_player.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                 @Override
                 public void onCompletion(MediaPlayer mp) {
 
                 }
             });
         }
-        biodome_player.start();
+        floating_foundation_player.start();
     }
 
     public void pause(View v)
     {
-        if(biodome_player!=null)
+        if(floating_foundation_player!=null)
         {
-            biodome_player.pause();
+            floating_foundation_player.pause();
         }
     }
 
@@ -47,10 +47,10 @@ public class BiodomeTourActivity extends AppCompatActivity {
 
     public void stopPlayer()
     {
-        if(biodome_player!=null)
+        if(floating_foundation_player!=null)
         {
-            biodome_player.release();
-            biodome_player=null;
+            floating_foundation_player.release();
+            floating_foundation_player=null;
         }
     }
 

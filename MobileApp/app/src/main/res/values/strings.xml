@@ -29,6 +29,7 @@
     <string name="grid_water_treatment">Water Treatment</string>
     <string name="grid_oil_lab">Plant Oil Lab</string>
     <string name="grid_wind_museum">Wind Museum</string>
+    <string name="grid_floating_foundation">Floating Foundation</string>
 
     <!--TEST FIELD PAGE STRINGS-->
     <string name="test_field_title">Test Field</string>
@@ -39,6 +40,13 @@
     <!--BIODOME PAGE STRINGS-->
     <string name="biodome_title">Biodome</string>
     <string name="biodome_audio_tour">Biodome Audio Tour</string>
+    <string name="biodome_text_tour">The Biodome has 3 floors. The inner diameter of the floor plan is 14.4 meters and the largest inner diameter (floor plan at 1st floor) is 15.5 meters. The building is constructed with a skeleton of aluminum pipes, which are covered with 3-layer polycarbonate sheets. The building is manufactured in Colorado, USA and was established in 1992.
+The floor plan is equipped with plant beds and with two 23 m3 water pools. The pools are the key of the system: the Azolla plants floating on the surface purify the rain water and act as food for fishes. The fishes than produce manure, which enriches the water. Finally, the water is used to irrigate the plants, making the whole process free of chemical fertilizers.
+The 1st floor is furnished with plant beds with 50m2 cultivated soils. An automatic time-controlled irrigation system is also present.
+Without the addition of heat other than solar energy, there is a Mediterranean climate in the Biodome, all year round. During summer, the top floor can reach even higher temperatures, allowing to grow plants typical of warmer climates.
+ The Biodome is a so-called minimal construction with a light-bearing skeleton. Plant cultivation is possible for up to 10 months a year. In the coldest winter days there may be light frost at night, but the pools will not freeze.
+The Biodome demonstrates how to integrate water circuits, recycling nutrient salts and soil and aquaculture.
+</string>
 
     <!--CAFE SOLAIRE PAGE STRINGS-->
     <string name="cafe_solaire_title">Cafe Solaire</string>
@@ -51,6 +59,7 @@
     <!--PLUS HOUSE PAGE STRINGS-->
     <string name="plus_house_title">Plus House</string>
     <string name="plus_house_audio_tour">Plus House Audio Tour</string>
+    <string name="plus_house_text_tour">With a floor area of 600 m2, the building was constructed in 1992 by Folkecenter with support of the EU and the Danish Energy Agency. The Plus Energy House is a test house that produces more energy than it uses itself; it is composed of many different individual components, each of which has proven their efficiency.The house has a shape of a large solar collector: the south-facing facade consists of two layers of glass with 20cm between each layer; polystyrene balls stored in the silos behind the building can be injected in the façade, allowing to have insulation only when needed (for example, during the night), but also allowing to provide shade to the whole building, or part of it and, in this way, to control indoor climate. The house is also equipped with a heat pump.There are different temperature levels at the different floors: during a sunny summer day, the top floor can reach over 50°C. It has been documented through measuring that the house can deliver more heat to the district heating system of Folkecenter than it is supplied in the form of electricity to the heat pump, reason for which the house is called Plus Energy House.</string>
 
     <!--PASSIVE HOUSE PAGE STRINGS-->
     <string name="passive_house_title">Passive House</string>
@@ -67,10 +76,25 @@
     <!--PLANT OIL LAB PAGE STRINGS-->
     <string name="plant_oil_lab_title">Plant Oil Lab</string>
     <string name="plant_oil_lab_audio_tour">Plant Oil Lab Audio Tour</string>
+    <string name="plant_oil_lab_text_tour">Since 1994, the Folkecenter has been working on plant oil for transport. There are several types of plant oil, depending on the seeds used. To be as sustainable as possible, seeds should come from locally-grown plants, so using avocado seeds in Denmark would not be a good idea. The best crop for this application in Denmark is rapeseed, which is grown mostly for feeding animals.
+Out of 3 kg of rapeseed, 2 kg are of protein-rich seed cake (used for animals) and 1 kg is oil, which is equivalent to approximately 1.1 liters. The oil yield is therefore limited and it often raises questions concerning the sustainability of PPO and biofuels in general. However, something not often considered is that the leftovers of the plant become straw, which in Denmark is used for heat and power production. The energy output per hectare is, therefore, much higher than the one related to oil production alone.
+Nevertheless, PPO is not the solution for all transportation: pipe emissions are approximately the same than those from conventional Diesel vehicles, so the only saving is in terms of processes: PPO does not need to be extracted, refined or transport from other parts of the world, making it more environmentally friendly. To be sustainable it has, however, to be kept local, maybe for those applications for which electric engines are still not suitable (for example, in tractors).
+Concerning costs, German examples show that pressing accounts for approx. 1 DKK per kilo of oil, including investment, wages and process energy. The process energy is approx. 100-150 kWh / ton of oil, which corresponds to the energy content of 10-15 liters of oil.
+Rape seed costs approx. 2 DKK per kilo, and the seed cakes value is approx. 1.2 DKK per kilo.
+This means that the raw material price will be approx. DKK 3.45 per liter, which, in addition to the cost of pressing, gives a total production price of approx. DKK 4.45 per liter.
+ In addition, VAT and taxes, distribution and profits should be added, making PPO comparable and, in some cases, slightly more expensive than Diesel.
+The oil press can produce 2-4 liters of rapeseed oil per hour, depending on the quality of the rapeseed. In addition to oil, the press also produces seed cakes, which can be used to feed animals, due to their high protein content.
+</string>
 
-    <!--PLANT OIL LAB PAGE STRINGS-->
+    <!--WIND MUSEUM LAB PAGE STRINGS-->
     <string name="wind_museum_title">Wind Museum</string>
     <string name="wind_museum_audio_tour">Wind Museum Audio Tour</string>
+
+
+    <!--FLOATING FOUNDATION PAGE STRINGS-->
+    <string name="floating_foundation_title">Floating Foundation</string>
+    <string name="floating_foundation_audio_tour">Floating Foundation Audio Tour</string>
+    <string name="floating_foundation_text_tour">The model is entirely the result of the work of Folkecenter trainees, from the design to the actual construction and testing. The model represents in scale the solutions which are now being considered in the industry of offshore wind turbines, to overcome the challenges posed by deep seawaters. The whole process was carried out between 2019 and 2020 by different groups of trainees and the concept has been tested in the local fjord. The floating foundation is now being connected to a small wind turbine which powers an LED installation. Blades, tower, foundation and LED illumination have all been developed and constructed by the trainees.</string>
 
     <!--QUIZ GAME PAGE STRINGS-->
     <string name="quiz_game_title">Folkecenter Quiz Game</string>

@@ -125,7 +125,7 @@
         <!--Column 1-->
 
         <android.support.v7.widget.CardView
-            android:id="@+id/cafe_solaire_card_view"
+            android:id="@+id/floating_foundation_card_view"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -145,16 +145,16 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:src="@drawable/cafe_solaire_icon"
+                    android:src="@drawable/floating_foundation_icon"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="@string/grid_cafe_solaire"
+                    android:text="@string/grid_floating_foundation"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="16sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />

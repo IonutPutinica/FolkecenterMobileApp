@@ -116,9 +116,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/test_field_text_tour"
+                android:text="@string/plant_oil_lab_text_tour"
                 android:textSize="50px"
                 android:padding="15dp"
+                android:paddingBottom="30dp"
                 android:layout_gravity="center"
                 />
 
